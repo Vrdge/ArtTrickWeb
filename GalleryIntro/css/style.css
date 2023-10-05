@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,900&display=swap");
+
+:root {
+  --font-family: 'Titillium Web', sans-serif;
+  --white-bg: #ffffff;
+}
+
+.parallax-slider {
+  font-family: var(--font-family);
+}
+
+.parallax-slider .swiper-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-slider .img-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.parallax-slider .first::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 8, 8, 0.5)), to(rgba(85, 0, 255, 0.304)));
+  background-image: linear-gradient(rgba(8, 8, 8, 0.5), to(rgba(85, 0, 255, 0.304)))
+}
+
+.parallax-slider .second::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 8, 8, 0.5)), to(rgba(255, 191, 0, 0.299)));
+  background-image: linear-gradient(rgba(8, 8, 8, 0.5), rgba(255, 191, 0, 0.299));
+}
+
+.parallax-slider .third::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 8, 8, 0.5)), to(rgba(0, 247, 255, 0.163)));
+  background-image: linear-gradient(rgba(8, 8, 8, 0.5), rgba(0, 247, 255, 0.163));
+}
+
+.parallax-slider .forth::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 8, 8, 0.5)), to(rgba(120, 120, 120, 0.5)));
+  background-image: linear-gradient(rgba(8, 8, 8, 0.5), rgba(120, 120, 120, 0.5));
+}
+
+
+.parallax-slider .swiper-slide .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.parallax-slider .content {
+  color: var(--white-bg);
+  text-align: center;
+}
+
+.parallax-slider .content .title {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+.parallax-slider .content .title .title-wrapper {
+  text-decoration: underline;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0.1rem 2rem;
+}
+
+.parallax-slider .content .description {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*nav controls*/
+.parallax-slider .swiper-nav-ctrl {
+  background-image: none;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--white-bg);
+  width: 30px;
+  outline: 0;
+}
+
+.parallax-slider .swiper-nav-ctrl.next-ctrl {
+  right: 0;
+}
+
+.parallax-slider .swiper-nav-ctrl.prev-ctrl {
+  left: 0;
+}
+
+.parallax-slider .pagination-ctrl {
+  max-width: calc(100% - 60px);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.parallax-slider .pagination-ctrl .swiper-pagination-bullet {
+  background-color: var(--white);
+}
+
+.parallax-slider .img-container.one {
+  background-image: url("../images/download.jpg");
+}
+
+.parallax-slider .img-container.two {
+  background-image: url("../images/206394.jpg");
+}
+
+.parallax-slider .img-container.three {
+  background-image: url("../images/Aivazovsky_-_Descent_of_Noah_from_Ararat.jpg");
+}
+
+.parallax-slider .img-container.four {
+  background-image: url("../images/20201113_KMN_install_0001_-_Large_Viewing_JPEG_4200px.e3ae560.jpg");
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header_inner {
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 9999;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 8, 8, 0.8)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(rgba(8, 8, 8, 0.8), rgba(0, 0, 0, 0));
+}
+
+.href_decoration {
+  color: rgb(205, 205, 205);
+  transition: all 0.3s ease;
+}
+
+.href_decoration:hover {
+  color: white;
+  text-decoration: none;
+  transform: scale(1.05);
+
+}
+
+.href_decoration:active {
+  color: rgb(178, 178, 178);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+.more{
+  font-size: 1.5em;
+}
