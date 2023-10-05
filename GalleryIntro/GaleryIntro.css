@@ -162,19 +162,19 @@
 }
 
 .parallax-slider .img-container.one {
-  background-image: url("../images/download.jpg");
+  background-image: url("./images/download.jpg");
 }
 
 .parallax-slider .img-container.two {
-  background-image: url("../images/206394.jpg");
+  background-image: url("./images/206394.jpg");
 }
 
 .parallax-slider .img-container.three {
-  background-image: url("../images/Aivazovsky_-_Descent_of_Noah_from_Ararat.jpg");
+  background-image: url("./images/Aivazovsky_-_Descent_of_Noah_from_Ararat.jpg");
 }
 
 .parallax-slider .img-container.four {
-  background-image: url("../images/20201113_KMN_install_0001_-_Large_Viewing_JPEG_4200px.e3ae560.jpg");
+  background-image: url("./images/20201113_KMN_install_0001_-_Large_Viewing_JPEG_4200px.e3ae560.jpg");
 }
 
 
