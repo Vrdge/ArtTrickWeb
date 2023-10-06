@@ -121,7 +121,7 @@ footer {
 }
 
 .footer h3 span {
-  color: #5383d3;
+  color: #989898;
 }
 
 
@@ -136,10 +136,11 @@ footer {
   line-height: 1.8;
   text-decoration: none;
   color: inherit;
+  color:#989898 ;
 }
 
 .footer .footer-company-name {
-  color: #8f9296;
+  color: #989898;
   font-size: 14px;
   font-weight: normal;
   margin: 0;

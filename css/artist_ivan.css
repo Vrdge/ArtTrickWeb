@@ -131,7 +131,9 @@ footer {
   margin: 20px 0 12px;
   padding: 0;
 }
-
+a{
+  color: white;
+}
 .footer .footer-links a {
   display: inline-block;
   line-height: 1.8;
