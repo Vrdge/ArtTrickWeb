@@ -216,3 +216,8 @@ header {
 .more{
   font-size: 1.5em;
 }
+@media(max-width: 769px){
+  .title-wrapper{
+    font-size: 0.5em;
+  }
+}
